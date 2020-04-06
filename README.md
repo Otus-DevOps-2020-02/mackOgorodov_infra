@@ -1,5 +1,3 @@
-# mackOgorodov_infra
-mackOgorodov Infra repository
 homework 3 part one
 git checkout -b cloud-bastion
 reg in GCP create project Infra create 2 vm. one of them with external ip. make ssh connection.
@@ -10,4 +8,5 @@ ProxyCommand ssh -A 104.199.18.67 nc %h %p
 part two create vpn on bastion use setupvpn.sh
 create organization - myorg - server - myserver user - test pin - 6214157507237678334670591556762 Port 16116/udp
 
-bastion_IP = 104.199.18.67 someinternalhost_IP = 10.132.0.3
+bastion_IP = 104.199.18.67
+someinternalhost_IP = 10.132.0.3
