@@ -13,7 +13,9 @@ create organization - myorg - server - myserver user - test pin - 62141575072376
 bastion_IP = 104.199.18.67
 someinternalhost_IP = 10.132.0.3
 
-homework #4 testapp_IP = 104.199.18.67 testapp_port = 9292
+homework 4
+testapp_IP = 104.199.18.67
+testapp_port = 9292
 
 create vm: gcloud compute instances create reddit-app
 --zone=europe-west1-c
